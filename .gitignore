@@ -3,6 +3,7 @@
 *.la
 *.lo
 *.o
+*.a
 
 # Packaging Files #
 ###################
@@ -50,6 +51,12 @@ debian/syncd.postinst.debhelper
 debian/syncd.postrm.debhelper
 debian/syncd.prerm.debhelper
 debian/syncd.substvars
+debian/.debhelper/
+debian/autoreconf.after
+debian/autoreconf.before
+debian/debhelper-build-stamp
+debian/syncd-vs.substvars
+debian/syncd-vs/
 
 debian/libsairedis-dev/
 debian/libsairedis/
